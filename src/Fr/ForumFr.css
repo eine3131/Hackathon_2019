@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
 
+
+.container{
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .forum {
   max-width:1100px;
   width:100%;
@@ -9,6 +16,7 @@
   font-weight:300px;
   line-height:30px;
   color:#777;
+
 }
 
 .forum_aux_questions {
@@ -114,6 +122,9 @@ border:1px solid #AAA;
   color:#888;
 }
 
-
+.image-forum{
+  width: 200px;
+  height: 200px;
+}
 
 

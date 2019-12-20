@@ -3,6 +3,7 @@
 .footer_français{
   background-color: #003399;
   color: white;
+  position: 0;
 }
 
 .containerFooter{
@@ -21,7 +22,7 @@
 .explorerPage{
   font-family:'Gothic A1', sans-serif;
   font-size: 12px;
-  margin-bottom: -0.5em;
+  margin-bottom: 0.5em;
 }
 
 .poctefa{
@@ -41,7 +42,7 @@
   text-decoration: none;
 }
 
-a, a:hover, a:visited, a:active
+a, a:hover, a:active
 {
 	color: white;
   text-decoration:none;

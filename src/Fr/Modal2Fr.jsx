@@ -26,7 +26,7 @@ const ModalExample = (props) => {
       <img className="image" src={image} alt=""/>
       <div className="subdiv">
               <p>Quelles sont les manières de produire de l’H<sub>2</sub>? </p>
-      <Button color="warning" onClick={toggle}>Question 2</Button>
+      <Button color="warning" onClick={toggle}>En savoir +</Button>
       </div>
       <Modal isOpen={modal} toggle={toggle} className="answer-modal">
         <ModalHeader toggle={toggle}>Les manières pour produire de l'H<sub>2</sub> :</ModalHeader>

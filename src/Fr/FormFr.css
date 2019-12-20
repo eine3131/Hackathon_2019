@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
 
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3em;
+}
+
+
 .formulaire {
   max-width:400px;
   width:100%;

@@ -1,5 +1,6 @@
 import React from 'react';
 import './FooterFr.css';
+import {Link} from 'react-router-dom';
 
 function FooterFr() {
   return (
@@ -10,8 +11,8 @@ function FooterFr() {
       </div>
         <div className="Explorer">
           <p className="titreFooter">Explorer</p>
-          <p className="explorerPage">Formulaire</p>
-          <p className="explorerPage">Forum</p>
+          <p className="explorerPage"><Link to="/Form">Formulaire</Link></p>
+          <p className="explorerPage"><Link to="/Forum">Forum</Link></p>
         </div>
         <div className="suivreFooter">
           <p className="titreFooter">Suivre</p>

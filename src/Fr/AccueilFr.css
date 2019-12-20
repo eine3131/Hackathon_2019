@@ -7,12 +7,17 @@
 
 .question{
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
+.imageAccueil{
+  width: 350px;
+  height: 340px;
+  margin-top: 10em;
+}
 .question_accueil{
   width: 474px;
-  margin-left: 5em;
   margin-top: 5em;
   text-align: start;
   font-size: 50px;

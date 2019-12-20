@@ -1,5 +1,5 @@
 import React from 'react';
-import '/home/user/quetes/Hackathon_2019/src/Fr/ForumFr.css';
+import './ForumFr.css';
 
 function ForumFr() {
   return (

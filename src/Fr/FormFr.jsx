@@ -6,7 +6,7 @@ return (
   <div class="container">
     <div className="formulaire">
       <form id="contact" action="" method="post">
-        <h3 className="getintouch">Contactez nous</h3>
+        <h3 className="getintouch">Pour recevoir notre newsletter</h3>
         <p className="components-form">
           <input className="input" placeholder="Nom" type="text" />
         </p>

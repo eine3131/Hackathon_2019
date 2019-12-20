@@ -33,7 +33,7 @@ const ModalExample = (props) => {
       <img className="image" src={image} alt=""/>
       <div className="subdiv">
         <p>Et le projet H2PIYR dans tout ça ?  </p>
-        <Button color="warning" onClick={toggle}>Question 4</Button>
+        <Button color="warning" onClick={toggle}>En savoir +</Button>
       </div>
       <Modal isOpen={modal} toggle={toggle} className="answer-modal">
         <ModalHeader toggle={toggle}>Le projet H2PIYR :</ModalHeader>

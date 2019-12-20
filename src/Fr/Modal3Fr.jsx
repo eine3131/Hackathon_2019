@@ -14,7 +14,7 @@ const ModalExample = (props) => {
       <img className="image" src={image} alt=""/>
       <div className="subdiv">
         <p>POCTEFA kézaco?</p>
-      <Button color="warning" onClick={toggle}>Question 3</Button>
+      <Button color="warning" onClick={toggle}>En savoir +</Button>
       </div>
       <Modal isOpen={modal} toggle={toggle} className="answer-modal">
         <ModalHeader toggle={toggle}> Explication du projet Espagne France :</ModalHeader>
