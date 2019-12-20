@@ -1,0 +1,25 @@
+.bar_nav{
+  display:flex;
+  flex-direction: row;
+}
+
+.icone{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2em;
+  width: 20%;
+}
+
+
+.langue{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5em;
+  list-style-type: none;
+  margin-top: 2em;
+}
+
+.français{
+  margin-right: 2em;
+}
