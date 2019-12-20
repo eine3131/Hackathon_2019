@@ -6,6 +6,7 @@ import Modal4Fr from './components/Fr/Modal4Fr';
 import Modal5Fr from './components/Fr/Modal5Fr';
 import Modal6Fr from './components/Fr/Modal6Fr';
 import Modal7Fr from './components/Fr/Modal7Fr';
+import MainQuiz from "./components/Fr/MainQuiz";
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Modal5Fr/>
       <Modal6Fr/>
       <Modal7Fr/>
+      <MainQuiz/>
     </div>
   );
 }

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    color: #f1f2f6;
+  }
+  h1{
+      color: #FFCC00;
+  }
+  body {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 32pt;
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2c3e50,
+      #bdc3c7
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9FAEE5, #bdc3c7);
+  }
+  .result {
+    margin: 20px 20%;
+
+  }
+  
+  .options {
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px 20%;
+  }
+  
+  .selected {
+    background: linear-gradient(to right, #bdc3c7, #FFCC00) !important;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  .questions{
+    
+  }
+  
+  .button{
+    margin-top: 20px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 32pt;
+  }
+
+  .questions button {
+    color: white;
+
+  }
+  .btn-warning.disabled, .btn-warning:disabled {
+    color: white;
+  }
