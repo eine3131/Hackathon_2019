@@ -1,21 +1,24 @@
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import React from 'react';
-import './ForumFr.css';
+import '/home/user/quetes/Hackathon_2019/src/Fr/ForumFr.css';
 
-const ForumFr = (props) => {
+function ForumFr() {
   return (
-    <Form className="form-container">
-      <h1 className="foire">Foire aux questions</h1>
-      <FormGroup className="form-titre">
-        <Label for="Titre">Titre :</Label>
-        <Input className="foire-titre" type="text" name="title" id="" />
-      </FormGroup>
-      <FormGroup className="form-text">
-        <Label for="exampleText">Question :</Label>
-        <Input className="foire-text" type="textarea" name="text" id="" />
-      </FormGroup>
-      <Button className="foire-bouton">Posez votre question</Button>
-    </Form>
+    <div class="container">
+      <div className="forum">
+        <form id="contact_forum" action="" method="post">
+          <h3 className="foire_aux_questions">Foire aux questions</h3>
+          <p className="components-forum">
+            <input className="input" placeholder="Titre de la question" type="text" />
+          </p>
+          <p className="components-forum">
+          <textarea  className="texteAreaForum" placeholder="Message"></textarea>
+          </p>
+          <p className="components-forum">
+            <button name="submit" type="submit" id="contact-submit">Envoyer</button>
+          </p>
+        </form>
+      </div>
+    </div>
   );
 }
 
