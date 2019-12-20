@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+
+.background_accueuil{
+  height: 700px;
+  margin-top:0;
+}
+
+.question{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.imageAccueil{
+  width: 350px;
+  height: 340px;
+  margin-top: 10em;
+}
+.question_accueil{
+  width: 474px;
+  margin-top: 5em;
+  text-align: start;
+  font-size: 50px;
+  font-family:'Gothic A1', sans-serif;
+  color: #003399;
+}

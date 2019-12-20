@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+
+.background_accueuil2{
+  height: 600px;
+  margin-top:0;
+  background-color: white;
+}
+
+.introduction{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.intro_droite, .intro_gauche{
+  margin-top: 9em;
+  width:700px;
+}
+
+.paragraphe_intro{
+  text-align: start;
+  font-size: 20px;
+  font-family:'Gothic A1', sans-serif;
+  color: black;
+  width: 474px;
+  margin-left: 6em;
+}
+
+.videoIntro{
+  width: 600px;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+
+.footer_français{
+  background-color: #003399;
+  color: white;
+}
+
+.containerFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 2em;
+}
+.iconeFooter{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -1em;
+}
+
+.explorerPage{
+  font-family:'Gothic A1', sans-serif;
+  font-size: 12px;
+  margin-bottom: -0.5em;
+}
+
+.poctefa{
+  font-family:'Gothic A1', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.explorer{
+  display:flex;
+  justify-content: center;
+}
+
+.suivreFooter{
+  display:flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+a, a:hover, a:visited, a:active
+{
+	color: white;
+  text-decoration:none;
+  font-family:'Gothic A1', sans-serif;
+  font-size: 12px;
+  margin-bottom: 0.5em;
+}
+
+.titreFooter{
+  font-weight: bold;
+  font-family:'Gothic A1', sans-serif;
+  font-size: 14px;
+}
+
+.copyrightAll {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family:'Gothic A1', sans-serif;
+  font-size: 14px;
+
+}
