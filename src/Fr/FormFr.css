@@ -6,7 +6,7 @@
   margin:0 auto;
   position:relative;
   font-family:'Gothic A1', sans-serif;
-  font-weight:300;
+  font-weight:300px;
   font-size: 12px;
   line-height:30px;
   color:#777;
@@ -16,6 +16,16 @@
   font-family:'Gothic A1';
   margin-bottom: 2em;
   font-weight: bold;
+}
+
+.input {
+  height: 30px;
+  font-size: 15px;
+}
+
+.texteArea{
+  height: 60px;
+  font-size: 15px;
 }
 
 #contact {
@@ -42,9 +52,7 @@
 .components-form {
   border: medium none !important;
   margin: 0 0 10px;
-  min-width: 100%;
   padding: 0;
-  width: 100%;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {

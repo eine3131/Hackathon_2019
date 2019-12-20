@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavFr.css';
-import logo from '/home/user/hackathon/Hackathon_2019/src/components/images/logo.jpg';
+import logo from '/home/user/quetes/Hackathon_2019/src/images/logo.jpg';
 
 function NavFr() {
   return (

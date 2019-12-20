@@ -29,7 +29,7 @@ function FooterFr() {
 
       </div>
       <div className="copyright">
-        <p>© 2019 All Rights Reserved.</p>
+        <p className="copyrightAll">© 2019 All Rights Reserved.</p>
       </div>
     </div>
   );

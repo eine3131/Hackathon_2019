@@ -8,16 +8,16 @@ return (
       <form id="contact" action="" method="post">
         <h3 className="getintouch">Contactez nous</h3>
         <p className="components-form">
-          <input placeholder="Nom" type="text" />
+          <input className="input" placeholder="Nom" type="text" />
         </p>
         <p className="components-form">
-          <input placeholder="Prénom" type="text" />
+          <input className="input" placeholder="Prénom" type="text" />
         </p>
         <p className="components-form">
-          <input placeholder="Email" type="email" />
+          <input className="input" placeholder="Email" type="email" />
         </p>
         <p className="components-form">
-          <textarea placeholder="Message"></textarea>
+          <textarea  className="texteArea" placeholder="Message"></textarea>
         </p>
         <p className="components-form">
           <button name="submit" type="submit" id="contact-submit">Envoyer</button>

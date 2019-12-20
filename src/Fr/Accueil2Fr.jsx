@@ -1,6 +1,6 @@
 import React from 'react';
 import './Accueil2Fr.css';
-import VideoIntro from '/home/user/hackathon/Hackathon_2019/src/components/images/Vidéo Introduction.mp4';
+import VideoIntro from '/home/user/quetes/Hackathon_2019/src/images/Vidéo Introduction.mp4';
 
 
 function Accueil2Fr() {

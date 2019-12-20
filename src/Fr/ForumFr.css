@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+​
+.form-container {
+  font-family: 'Gothic A1', sans-serif;
+}
+​
+h1.foire {
+  padding: 5%;
+  color: rgb(255, 204, 0);
+}
+​
+label.foire-titre {
+  font-size: 30px;
+}
+​
+label.foire-text {
+  font-size: 30px;
+}
+​
+label {
+  color: rgb(255, 204, 0);
+}
+​
+.form-titre {
+  width: 20%;
+  padding-left: 1%;
+}
+​
+.form-text {
+  width: 80%;
+  height: 100%;
+  padding-left: 1%;
+}
+​
+.foire-bouton {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+​
+.foire-bouton:hover {
+  cursor: pointer;
+}
